@@ -7,3 +7,7 @@ RUN apt-get install -y wget curl git-lfs
 RUN wget https://dl.min.io/client/mc/release/linux-amd64/mc
 RUN mv mc /usr/local/bin
 RUN chmod +x /usr/local/bin/mc
+
+RUN git clone https://github.com/JohnSundell/Publish.git
+RUN cd Publish
+RUN make

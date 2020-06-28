@@ -4,6 +4,7 @@ Tiny Docker image designed to build static sites using using [Publish](https://g
 
 ## Additional Software
 
+- [Publish](https://github.com/JohnSundell/Publish)
 - wget
 - curl
 - git-lfs
