@@ -1,4 +1,4 @@
-FROM swift:5.2
+FROM swift:5.3
 MAINTAINER Emory Dunn <edunn@emorydunn.com>
 
 RUN apt-get update
